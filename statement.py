@@ -33,14 +33,13 @@ class Statement:
         self.statement_income = self.get_income()
 
     def categorise_statement(self):
-        bills_list = ["COURSERA.ORG", "Manual", "CLUB LLOYDS FEE", "ACCOUNT FEE", "MBNA LOANS", "ID MOBILE LIMITED"]
-        groceries_list = ["ICELAND", "TESCO STORES 3378", "MORR BREDBURY", "W M MORRISON STORE"]
-        eating_out_list = ["STERLING MEAT COMP", "STOCKPORT CONVIENC", "KAYS NEWS", "NYA*AJS Vending Lt",
-                           "NYA*Oldham Vending", "COSTCUTTER ON THE"]
-        travel_list = ["ESSO GREAT MOOR"]
-        entertainment_list = ["AWESOMEWALLSSTOCKP"]
-        payments_transfers_list = ["D MORLEY", "N BOND"]
-        shopping_list = ["GO OUTDOORS", "SP PATROLSTORE", "AMZNMktplace*TA4E6"]
+        bills_list = ["RENT", "MEMBERSHIP FEE", "MOBILE"]
+        groceries_list = ["ICELAND", "TESCO STORES 0000", "MORRISON'S"]
+        eating_out_list = ["ITALIAN", "SPICE"]
+        travel_list = ["ESSO"]
+        entertainment_list = ["NETFLIX", "spotify"]
+        payments_transfers_list = []
+        shopping_list = ["GO OUTDOORS", "AMZNMktplace*TA4E6"]
         category = []
 
         for item in self.statement.get("Transaction Description"):

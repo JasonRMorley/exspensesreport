@@ -45,9 +45,19 @@ class Interface:
 
         # statement handle
         self.statements = statements
-        self.selected_month = "oct" + "-" + self.year_value.get()
-        self.selected_statement = self.statements[self.selected_month]
 
+        try:
+            for statement in self.statements:
+                self.selected_month = statement
+            print(self.selected_month)
+            self.selected_statement = self.statements[self.selected_month]
+
+        except KeyError:
+            self.selected_month = "jan" + "-" + self.year_value.get()
+            print(self.selected_month)
+            # self.selected_statement = self.statements[self.selected_month]
+
+        # add pie
         self.pie_frame = Frame(self.top_frame)
         self.pie_frame.pack(side="left")
         self.bar_frame = Frame
@@ -226,6 +236,8 @@ class Interface:
         except KeyError:
             print(f"No statement found for selected month {self.selected_month}\n"
                   f"please upload a statement for that month then try again")
+        except AttributeError:
+            print("No statements found. Please upload statement and try again.")
 
     def add_pie(self):
         try:

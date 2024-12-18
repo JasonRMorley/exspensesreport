@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7259e1c8-4e22-4732-a817-f31f6bd05a7e" name="Changes" comment="An expense report app." />
+    <list default="true" id="7259e1c8-4e22-4732-a817-f31f6bd05a7e" name="Changes" comment="statements replaced with example statement.">
+      <change afterPath="$PROJECT_DIR$/data/statements/feb-2024.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/statements/jan-2024.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/statements/jan-2024.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/statement.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,17 +28,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.statement.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.gui.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.statement.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/jrmor/PycharmProjects/exspensesreport/data/statements"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jrmor\PycharmProjects\exspensesreport\data\statements" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jrmor\PycharmProjects\exspensesreport\data\statements" />
       <recent name="C:\Users\jrmor\PycharmProjects\exspensesreport\data" />
@@ -87,8 +97,19 @@
       <option name="project" value="LOCAL" />
       <updated>1734524808862</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="An expense report app.">
+      <option name="closed" value="true" />
+      <created>1734525255931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734525255931</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -102,8 +123,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="An expense report app." />
-    <option name="LAST_COMMIT_MESSAGE" value="An expense report app." />
+    <MESSAGE value="statements replaced with example statement." />
+    <option name="LAST_COMMIT_MESSAGE" value="statements replaced with example statement." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
